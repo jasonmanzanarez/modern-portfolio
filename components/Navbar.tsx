@@ -1,5 +1,4 @@
 'use client';
-import React, { useState } from 'react';
 
 export default function Navbar({ onLanguageChange, currentLang }: { onLanguageChange: () => void; currentLang: string }) {
   return (
