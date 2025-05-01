@@ -19,7 +19,7 @@ import { FaJava, FaAws, FaChartBar } from 'react-icons/fa'; // Power BI (visual 
 
 type Skill = {
   name: string;
-  icon: JSX.Element;
+  icon: React.ReactNode;
   baseColor: string;
 };
 
